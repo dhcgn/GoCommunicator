@@ -11,5 +11,23 @@ I like the idea from different system who use TXT-Records of domains.
 The limit of 255 characters should be no problem.
 
 ```
-goco.example.org   IN   TXT   "pk: [base64 public key], url: [https url for a http post]"
+example.org   IN   TXT   "gocom pk: [base64 public key]]"
+example.org   IN   TXT   "gocom target: [https url for a http post]"
+```
+
+## Sample Data
+
+```
+-----BEGIN PRIVATE KEY-----
+MIGkAgEBBDDWDJb2FtQNmlPgR/IMvF8KpZAonNfCGQ0k/cZozfotWcw+ZyCY9Egu
+SwsKWjkewqygBwYFK4EEACKhZANiAAQeybe7+OBzfa03Yutc+bf4cIvBQYFuE6ML
+0pRJO2uW2V16AUpaj861yih/aCbE6DjmBvV10Nafar5Gdtvypsq+BZL9YjQIONCy
+ezPjn6boRVm0Q+jIVLsoMWQt23077wg=
+-----END PRIVATE KEY-----
+
+ -----BEGIN PUBLIC KEY-----
+MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEHsm3u/jgc32tN2LrXPm3+HCLwUGBbhOj
+C9KUSTtrltldegFKWo/Otcoof2gmxOg45gb1ddDWn2q+Rnbb8qbKvgWS/WI0CDjQ
+snsz45+m6EVZtEPoyFS7KDFkLdt9O+8I
+-----END PUBLIC KEY-----
 ```
