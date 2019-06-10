@@ -19,11 +19,11 @@ example.org   IN   TXT   "gocom target: [https url for a http post]"
 
 #### Use application on any maschine to send a message
 
-![Console](https://imgur.com/OpqBIeb)
+![Console](https://imgur.com/OpqBIeb.png)
 
 #### Get the message e.g. by PushOver
 
-![Notification](https://imgur.com/yJtgVXG)
+![Notification](https://imgur.com/yJtgVXG.png)
 
 
 ## Sample Data
