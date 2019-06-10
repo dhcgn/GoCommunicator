@@ -15,6 +15,17 @@ example.org   IN   TXT   "gocom pk: [base64 public key]]"
 example.org   IN   TXT   "gocom target: [https url for a http post]"
 ```
 
+## User Story
+
+#### Use application on any maschine to send a message
+
+![Console](https://imgur.com/OpqBIeb)
+
+#### Get the message e.g. by PushOver
+
+![Notification](https://imgur.com/yJtgVXG)
+
+
 ## Sample Data
 
 ```
