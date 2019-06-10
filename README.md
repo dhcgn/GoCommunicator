@@ -15,6 +15,11 @@ example.org   IN   TXT   "gocom pk: [base64 public key]]"
 example.org   IN   TXT   "gocom target: [https url for a http post]"
 ```
 
+## Security
+
+For Message Encryption is use the standard JWE with ECDH_ES_A256KW and the EC P-384 from NIST. (Would like to use a different curve)
+The target where the message is send (http post) to, is read from a TXT Record so this could be spoofed.
+
 ## User Story
 
 #### Use application on any maschine to send a message
