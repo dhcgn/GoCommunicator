@@ -26,9 +26,11 @@ The target where the message is send (http post) to is read from a TXT Record so
 
 ![Console](https://imgur.com/OpqBIeb.png)
 
-#### Get the message e.g. by PushOver
+#### Get the message
 
-![Notification](https://imgur.com/yJtgVXG.png)
+Here I use the app Pushover (https://pushover.net/)
+
+<img src="https://imgur.com/yJtgVXG.png" width="400">
 
 
 ## Sample Data
