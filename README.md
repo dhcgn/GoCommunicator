@@ -17,8 +17,8 @@ example.org   IN   TXT   "gocom target: [https url for a http post]"
 
 ## Security
 
-For Message Encryption is use the standard JWE with ECDH_ES_A256KW and the EC P-384 from NIST. (Would like to use a different curve)
-The target where the message is send (http post) to, is read from a TXT Record so this could be spoofed.
+For Message Encryption is use the standard JWE with ECDH_ES_A256KW and the EC P-384 from NIST and A256GCM an Authenticated encryption (AE) algorithm. (Would like to use a different curve, than the NIST Curves.)
+The target where the message is send (http post) to is read from a TXT Record so this could be spoofed.
 
 ## User Story
 
